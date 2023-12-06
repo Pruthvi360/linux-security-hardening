@@ -87,10 +87,9 @@ Copy code
 
 The `fstab` file is a crucial configuration file in Unix-like operating systems, including Linux. It defines how file systems are mounted during the boot process.
 
-## Sample fstab Entry
+## Sample fstab Entry **Check with blkid for existing mount directory of fstab**
 
 Here's a breakdown of a typical `fstab` entry:
-Check with `blkid` for existing mount directory of `fstab`:
 
 ```plaintext
 UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx   /mnt/data   ext4   defaults   0   2
