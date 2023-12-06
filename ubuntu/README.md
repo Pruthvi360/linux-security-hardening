@@ -17,3 +17,8 @@ apt-get install debsums -y
 debsums -l
 debsums -c
 ```
+# Lesson 2 Filesystem protection
+
+```
+cat /proc/partitions
+```
