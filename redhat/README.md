@@ -93,4 +93,5 @@ nano /etc/issue   # Before lognin message
 nano /etc/motd    # After successfull login
 systemctl isolate multi-user.target
 systemctl isolate graphical.target
+systemctl status ctrl-alt-del.target
 ```
