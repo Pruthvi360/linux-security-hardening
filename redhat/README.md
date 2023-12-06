@@ -10,3 +10,7 @@ yum updateinfo
 yum updateinfo list
 yum updateinfo RHSA-2016:0176 | less
 ```
+# Validating packages
+```
+rpm -Va
+```
