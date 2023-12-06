@@ -41,9 +41,15 @@ cd /dev/mapper/
 
 mkfs.ext4 /dev/mapper/secret
 mkdir /secret
-mount /dev/mapper/secret / secret
+mount /dev/mapper/secret /secret
 mount
 ```
 **Disconnet Encrypted Device**
+```
+unmount /secret
+cryptsetup luksClose /dev/mapper/secret
+cd /dev/mapper
+\ls    # Should not find any secret directory
+```
 
 
