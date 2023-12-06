@@ -94,10 +94,11 @@ Here's a breakdown of a typical `fstab` entry:
 ```plaintext
 UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx   /mnt/data   ext4   defaults   0   2
 
-
+```
 UUID (Universally Unique Identifier): A unique identifier for the file system.
 Mount Point: The directory where the file system is mounted.
 File System Type: The type of file system on the partition (e.g., ext4, ntfs, xfs).
 Mount Options: Additional options for mounting the file system (e.g., rw for read and write access).
 Dump Flag: Used by the dump command (0 means no dump).
 File System Check Order: Used by the fsck command (0 means no check during boot).
+```
