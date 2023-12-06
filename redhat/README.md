@@ -86,3 +86,10 @@ Mount Options: Additional options for mounting the file system (e.g., rw for rea
 Dump Flag: Used by the dump command (0 means no dump).
 File System Check Order: Used by the fsck command (0 means no check during boot).
 ```
+
+# Login Before and after Message
+```
+nano /etc/issue   # Before lognin message
+nano /etc/motd    # After successfull login
+systemctl isolate multi-user.target
+```
