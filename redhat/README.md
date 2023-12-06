@@ -92,4 +92,5 @@ File System Check Order: Used by the fsck command (0 means no check during boot)
 nano /etc/issue   # Before lognin message
 nano /etc/motd    # After successfull login
 systemctl isolate multi-user.target
+systemctl isolate graphical.target
 ```
