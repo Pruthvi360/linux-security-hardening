@@ -60,5 +60,23 @@ man mount
 nodev              ---> No device can be accessed if directory is attached to this. can be added to all dicrectory above except /home
 nosuid             ---> files will not be executed by the permission of the person who execute it but it will executed by permission of the owner of the Dir or file. It should not be applied to /home dir
 noexec             ---> Prevents user run executeable on that directory.
+```
+**Mounting Directory to noexec or nosuid or nodev**
+```
+mount -o remount,noexec /dev/mapper/secret
+mount #Check the mount option on that directory
+```
+# File System Table (fstab) Configuration
 
+The `fstab` file is a crucial configuration file in Unix-like operating systems, including Linux. It defines how file systems are mounted during the boot process.
+
+## fstab Entry
+
+Here's a breakdown of a typical `fstab` entry:
+
+```plaintext
+UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx   /mnt/data   ext4   defaults   0   2
+
+```
+blkid
 ```
