@@ -4,3 +4,7 @@
 https://www.cve.org/news/index.html
 https://access.redhat.com/security/security-updates/cve)https://access.redhat.com/security/security-updates/cve
 ```
+```
+yum updateinfo
+yum updateinfo list
+```
