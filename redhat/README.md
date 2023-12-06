@@ -77,7 +77,7 @@ Check with `blkid` for existing mount directory of `fstab`:
 
 ```plaintext
 UUID=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx   /mnt/data   ext4   defaults   0   2
-
+```
 ```
 UUID (Universally Unique Identifier): A unique identifier for the file system.
 Mount Point: The directory where the file system is mounted.
