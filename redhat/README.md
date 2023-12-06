@@ -4,7 +4,9 @@
 https://www.cve.org/news/index.html
 https://access.redhat.com/security/security-updates/cve)https://access.redhat.com/security/security-updates/cve
 ```
+# Checking latest patches on vulnerability and bugfixes
 ```
 yum updateinfo
 yum updateinfo list
+yum updateinfo RHSA
 ```
