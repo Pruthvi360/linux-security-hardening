@@ -51,5 +51,14 @@ cryptsetup luksClose /dev/mapper/secret
 cd /dev/mapper
 \ls    # Should not find any secret directory
 ```
+**Using security related mount options**
+```
+man mount
 
+/tmp, /var, /var/lag, /usr, /home
 
+nodev              ---> No device can be accessed if directory is attached to this. can be added to all dicrectory above except /home
+nosuid             ---> files will not be executed by the permission of the person who execute it but it will executed by permission of the owner of the Dir or file. It should not be applied to /home dir
+noexec             ---> Prevents user run executeable on that directory.
+
+```
