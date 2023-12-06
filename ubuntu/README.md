@@ -4,3 +4,7 @@
 apt-get -s dist-upgrade
 apt-get -s dist-upgrade | grep "^Inst"
 ```
+```
+apt-get -s dist-upgrade | grep "^Inst" | grep -i secur
+apt-get -s dist-upgrade | grep "^Inst" | awk -F " " '{ print $2 }'
+```
