@@ -30,6 +30,6 @@ sudo bash ./genOSCAPreport.sh
 ```
 cd /home
 git clone https://github.com/CISOfy/lynis.git
-cd lynix
+cd lynis
 ./lynis audit system
 ```
